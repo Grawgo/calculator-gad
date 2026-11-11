@@ -6,6 +6,6 @@ def get_hypotenuse(a, b):
 
 
 if __name__ == "__main__":
-    a = 1
-    b = 2
-    print(get_hypotenuse(a, b))
+    a = int(input("Введите a: "))
+    b = int(input("Введите b: "))
+    print("c =", get_hypotenuse(a, b))
